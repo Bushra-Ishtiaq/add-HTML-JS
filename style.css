@@ -35,3 +35,18 @@ button:hover{
     background-color: #222;
     color: #8bc34a;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    h1{
+        font-size: 20px;
+    }
+    button{
+        padding: 4px;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px){
+    h1{
+        font-size: 50px;
+    }
+}
